@@ -5,6 +5,7 @@
     box-sizing: border-box;
     
 }
+/* font */
 body{
     font-family: "Whitney";
 }
@@ -20,68 +21,13 @@ a{
 img{
     width: 100%;
 }
-/* header */
-header{
-    background-image: url(../img/jumbo.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-
-}
-
-.container{
-    width: 80%;
-    margin: auto;
-    height: auto;
-    
-}
-.header-menu{
-    
-    line-height: 80px;
-}
 .col{
     float: left;
-}
-.col-right{
-    width: 10%;
-    text-align: right;
-}
-.col-left{
-    width: 10%;
-    text-align: left;
-}
-.col-right img{
-    display: inline-block;
-    vertical-align: middle;
-}
-.col-mid{
-    width: 80%;
-    text-align: center;
 }
 ul{
     list-style-type: none;
     width: 100%;
     
-}
-.menu-top li{
-    display: inline-block;
-    
-    
-}
-.menu-top a{
-    color: white;
-    padding: 0 25px;
-    font-size: 20px;
-}
-.bottone a{
-    color: #23272a;
-    background-color: white;
-    padding: 8px 16px;
-    border-radius: 40px; 
-}
-.jumbotron{
-    margin: auto;
-    text-align: center;
-    padding: 95px;
 }
 .title{
     font-size: 60px;
@@ -91,15 +37,79 @@ ul{
     font-size: 23px;
     line-height: 30px;
 }
+/* header */
+header{
+    background-image: url(../img/jumbo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+/* containment element */
+.container{
+    width: 80%;
+    margin: auto;
+    height: auto;
+    
+}
+/* top menu element */
+.header-menu{
+    line-height: 80px;
+}
+/* header colomn */
+.col-right{
+    width: 10%;
+    text-align: right;
+}
+.col-left{
+    width: 10%;
+    text-align: left;
+}
+.col-mid{
+    width: 80%;
+    text-align: center;
+}
+/* discord logo header */
+.col-right img{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* header central menu alignment */
+.menu-top li{
+    display: inline-block;
+    
+    
+}
+/* top menu link size and positioning */
+.menu-top a{
+    color: white;
+    padding: 0 25px;
+    font-size: 20px;
+}
+/* top menu btn features */
+.bottone a{
+    color: #23272a;
+    background-color: white;
+    padding: 8px 16px;
+    border-radius: 40px; 
+}
+/*header central texts positioninf  */
+.jumbotron{
+    margin: auto;
+    text-align: center;
+    padding: 95px;
+}
+/*h1 element in  jumbotron */
 .jumbotron h1{
     color: white;
     margin-bottom: 30px;
 }
+/* p element in jumbotron */
 .jumbotron p{
     color: white;
     margin-bottom: 30px;
 }
-
+/* white button */
 .btn-white{
     background-color: white;
     color: #23272a;
@@ -108,6 +118,7 @@ ul{
     padding: 10px 20px;
     margin: 10px 16px;
 }
+/* black button */
 .btn-black{
     background-color: #23272a;
     color:white ;
@@ -116,32 +127,39 @@ ul{
     padding: 10px 20px;
     margin: 10px 16px;
 }
+/* spacing beetween block */
 .spaziamento{
     margin: 200px 0;
 }
+/* column with images */
 .col-img{
     width: 60%;
     text-align: left;
 }
+/* column with text */
 .col-text{
     width: 40%;
     padding-top: 35px;
 }
+/* full screen text */
 .title-block{
     color:#23272a ;
 }
 .text-block{
     color:#23272a ;
 }
+/* bottom main elements positioning */
 .container-piccolo{
     width: 50%;
     margin: auto;
     text-align: center;
 }
+/* bottom main title */
 .container-piccolo h3{
     font-size: 30px;
     margin-bottom: 40px;
 }
+/* purple button */
 .btn-purple{
     background-color: #7188d9;
     color:white ;
@@ -150,53 +168,70 @@ ul{
     padding: 10px 20px;
     margin: 10px 16px;
 }
+/* footer  */
 footer{
     background-color: #23272a;
 }
+/* italian flag img features */
 .italian-flag{
     width: 20px;
     height: auto;
     display: inline-block;
 }
+/* 1st footer column  */
 .col-footer1{
     width: 28%;
 }
+/* 1st footer other 4 columns */
 .col-footer2{
     width: 18%;
 }
+/* footer spacing */
 .footer-col-list{
     margin-top: 75px;
 }
+/* footer list elements spacing */
 .footer-col-list li{
     line-height: 42px;
 }
+/* footers column 2-4 titles */
 .footer-col-list h3{
     color: #7188d9;
 }
+/* footer 1st column title */
 .footer-title{
     font-size: 30px;
 }
-.footer-col-list span{
-    color:white;
-}
+
+/* recouloring of font awesome text */
 .all-logo i{
     color: white;
     margin-left: 30px;
     font-size: 20px;
 }
-.angle-down{
+/*2 row 1st column footer */
+.italiano{
     margin-left:1px ;
+    color: white;
 }
+/* li elemnts in footer */
 .col-footer2 li{
     line-height: 30px;
+    color:white;
 }
+/* bottom footer */
 .real-footer{
     padding-top: 20px;
     border-top: 2px solid #38425b;
 }
-.footer-btn{
+/* footer btm */
+.footer-btn a{
     color:white;
     background-color: #8ea1e1;
     padding: 8px 16px;
     border-radius: 40px; 
+}
+/* easyest solution for positionig of last elements */
+.real-footer-col-left{
+    float: right;
 }
