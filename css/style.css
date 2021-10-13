@@ -57,7 +57,7 @@ header{
     width: 80%;
     text-align: center;
 }
-.menu-top{
+ul{
     list-style-type: none;
     width: 100%;
     
@@ -140,4 +140,63 @@ header{
 }
 .container-piccolo h3{
     font-size: 30px;
+    margin-bottom: 40px;
+}
+.btn-purple{
+    background-color: #7188d9;
+    color:white ;
+    border-radius: 40px;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 10px 16px;
+}
+footer{
+    background-color: #23272a;
+}
+.italian-flag{
+    width: 20px;
+    height: auto;
+    display: inline-block;
+}
+.col-footer1{
+    width: 28%;
+}
+.col-footer2{
+    width: 18%;
+}
+.footer-col-list{
+    margin-top: 75px;
+}
+.footer-col-list li{
+    line-height: 42px;
+}
+.footer-col-list h3{
+    color: #7188d9;
+}
+.footer-title{
+    font-size: 30px;
+}
+.footer-col-list span{
+    color:white;
+}
+.all-logo i{
+    color: white;
+    margin-left: 30px;
+    font-size: 20px;
+}
+.angle-down{
+    margin-left:1px ;
+}
+.col-footer2 li{
+    line-height: 30px;
+}
+.real-footer{
+    padding-top: 20px;
+    border-top: 2px solid #38425b;
+}
+.footer-btn{
+    color:white;
+    background-color: #8ea1e1;
+    padding: 8px 16px;
+    border-radius: 40px; 
 }
