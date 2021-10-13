@@ -85,6 +85,7 @@ header{
 }
 .title{
     font-size: 60px;
+    margin-bottom: 20px;
 }
 .text{
     font-size: 23px;
@@ -116,5 +117,27 @@ header{
     margin: 10px 16px;
 }
 .spaziamento{
-    margin: 100px;
+    margin: 200px 0;
+}
+.col-img{
+    width: 60%;
+    text-align: left;
+}
+.col-text{
+    width: 40%;
+    padding-top: 35px;
+}
+.title-block{
+    color:#23272a ;
+}
+.text-block{
+    color:#23272a ;
+}
+.container-piccolo{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.container-piccolo h3{
+    font-size: 30px;
 }
