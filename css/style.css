@@ -107,6 +107,7 @@ header{
     background-color: white;
     padding: 8px 16px;
     border-radius: 40px; 
+    
 }
 /*header central texts positioninf  */
 .jumbotron{
@@ -132,6 +133,7 @@ header{
     font-size: 20px;
     padding: 10px 20px;
     margin: 10px 16px;
+    display: inline-block;
 }
 /* black button */
 .btn-black{
@@ -141,6 +143,7 @@ header{
     font-size: 20px;
     padding: 10px 20px;
     margin: 10px 16px;
+    display: inline-block;
 }
 /* spacing beetween block */
 .spaziamento{
@@ -159,9 +162,11 @@ header{
 /* full screen text */
 .title-block{
     color:#23272a ;
+    text-align: center;
 }
 .text-block{
     color:#23272a ;
+    text-align: center;
 }
 /* bottom main elements positioning */
 .container-piccolo{
@@ -182,6 +187,7 @@ header{
     font-size: 20px;
     padding: 10px 20px;
     margin: 10px 16px;
+    display: inline-block;
 }
 /* footer  */
 footer{
