@@ -37,6 +37,21 @@ ul{
     font-size: 23px;
     line-height: 30px;
 }
+.wave{
+    color: lightgrey;
+    
+}
+.wave svg{
+    display: block;
+}
+.wave-down svg{
+    display: block;
+}
+.wave-down{
+    color: lightgrey;
+    transform: rotate(180deg);
+}
+
 /* header */
 header{
     background-image: url(../img/jumbo.png);
@@ -235,9 +250,11 @@ footer{
 .real-footer-col-left{
     float: right;
 }
+/* background color for different section */
 .background{
     background-color: lightgrey;
 }
+/* positioning for final section background */
 .spaziamento-finale{
     margin-top:200px ;
     padding-bottom: 100px;
